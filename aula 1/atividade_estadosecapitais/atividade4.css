@@ -1,0 +1,356 @@
+:root {
+    background-image:url(brasil.jpg);
+    background-attachment: fixed;
+    text-align: center;
+
+}
+
+.norte{
+    box-shadow:10px 10px 10px 10px lightgreen;
+}
+.nordeste {
+    box-shadow:10px 10px 10px 10px orange;
+}
+.centro-oeste {
+    box-shadow:10px 10px 10px 10px yellow;
+}
+.sudeste {
+    box-shadow:10px 10px 10px 10px darkgreen;
+}
+.sul {
+    box-shadow:10px 10px 10px 10px blue;
+}
+
+img {
+    width: 200px;
+    height: 150px;
+    margin-left:45px;
+    margin-top: 20px;
+    
+}
+h1 {
+    font-family: Verdana;
+    font-size:60px;
+    color: lightcoral;
+    text-decoration: underline;
+}
+
+h2 {
+    font-size: medium;
+    font-family:'Arial Narrow Bold';
+    text-align: center;
+    color:rgba(211, 255, 13, 0.979);
+}
+
+div {
+    display: inline-block;
+    float: left;
+    width: 300px;
+    height: 300px;
+    margin-top: 30px;
+    margin-left: 15px;
+    box-shadow: 10px, 10px, 10px,blue;
+}
+
+#ac {
+    font-family: 'Segoe UI';
+    font-size: small;
+    text-align: justify;
+    border-style: solid;
+    border-color: olivedrab;
+    border-width: 5px;
+    background-color:mediumseagreen;
+    width: 300px;
+    height: 300px;
+}
+
+#al {
+    font-family:Helvetica;
+    font-size: small;
+    text-align: justify;
+    border-style:dotted;
+    border-color: tomato;
+    border-width:5px;
+    background-color:darkcyan;
+}
+
+#ap {
+    font-family:'Lucida Sans';
+    font-size: small;
+    text-align: justify;
+    border-style:dashed;
+    border-color:lime;
+    border-width:5px;
+    background-color:rgb(54, 112, 76);
+    
+}
+
+#am {
+    font-family:'Segoe UI';
+    font-size: small;
+    text-align: justify;
+    border-style:double;
+    border-color:lightcoral;
+    border-width:5px;
+    background-color:mediumvioletred;
+}
+
+#ba {
+    font-family:monospace;
+    font-size: small;
+    text-align: justify;
+    border-style:ridge;
+    border-color:orangered;
+    border-width:5px;
+    background-color:peru;
+}
+
+#ce {
+    font-family:serif;
+    font-size: small;
+    text-align: justify;
+    border-style:dotted;
+    border-color:magenta;
+    border-width:5px;
+    background-color:paleturquoise;
+}
+
+#df {
+    font-family:'Times New Roman';
+    font-size: small;
+    text-align: justify;
+    border-style:groove;
+    border-color:mediumspringgreen;
+    border-width:5px;
+    background-color:rgb(43, 43, 160);
+}
+
+#es{
+    font-family:Impact;
+    font-size: small;
+    text-align: justify;
+    border-style:dashed;
+    border-color:orange;
+    border-width:5px;
+    background-color:royalblue;
+}
+
+#go{
+    font-family:'Arial Narrow Bold';
+    font-size: small;
+    text-align: justify;
+    border-style:solid;
+    border-color:seagreen;
+    border-width:5px;
+    background-color:rebeccapurple;
+}
+
+#ma{
+    font-family:cursive;
+    font-size: small;
+    text-align: justify;
+    border-style:outset;
+    border-color:rgba(211, 255, 13, 0.979);
+    border-width:5px;
+    background-color:saddlebrown;
+}
+
+#mt{
+    font-family:'Trebuchet MS';
+    font-size: small;
+    text-align: justify;
+    border-style:double;
+    border-color:red;
+    border-width:5px;
+    background-color:mediumorchid;
+}
+
+#ms{
+    font-family:Tahoma;
+    font-size: small;
+    text-align: justify;
+    border-style:inset;
+    border-color:olive;
+    border-width: 5px;
+    background-color:orange;
+}
+
+#mg{
+    font-family:'Lucida Sans Unicode';
+    font-size: small;
+    text-align: justify;
+    border-style:dotted;
+    border-color:palegreen;
+    border-width:5px;
+    background-color:tomato;
+}
+
+#pa{
+    font-family:Impact;
+    font-size: small;
+    text-align: justify;
+    border-style:outset;
+    border-color:yellowgreen;   
+    border-width:5px;
+    background-color:teal;
+}
+
+#pb{
+    font-family:Impact;
+    font-size: small;
+    text-align: justify;
+    border-style:ridge;
+    border-color:slategray;
+    border-width:5px;
+    background-color:salmon;
+}
+
+#pr{
+    font-family:Impact;
+    font-size: small;
+    text-align: justify;
+    border-style:dashed;
+    border-color:purple;
+    border-width:5px;
+    background-color:maroon;
+}
+
+#pe{
+    font-family:monospace;
+    font-size: small;
+    text-align: justify;
+    border-style:groove;
+    border-color:yellow;
+    border-width:5px;
+    background-color:turquoise;
+}
+
+#pi{
+    font-family:monospace;
+    font-size: small;
+    text-align: justify;
+    border-style:dotted;
+    border-color:cyan;
+    border-width:5px;
+    background-color:crimson;
+}
+
+#rj{
+    font-family:Impact;
+    font-size: small;
+    text-align: justify;
+    border-style:solid;
+    border-color:darkorange;
+    border-width:5px;
+    background-color:darkred;
+}
+
+#rn{
+    font-family:Impact;
+    font-size: small;
+    text-align: justify;
+    border-style:double;
+    border-color:darkturquoise;
+    border-width:5px;
+    background-color:forestgreen;
+}
+
+#rn{
+    font-family:Impact;
+    font-size: small;
+    text-align: justify;
+    border-style:double;
+    border-color:darkturquoise;
+    border-width:5px;
+    background-color:forestgreen;
+}
+
+#rs{
+    font-family:Helvetica;
+    font-size: small;
+    text-align: justify;
+    border-style:groove;
+    border-color:hotpink;
+    border-width:5px;
+    background-color:indigo;
+}
+
+#ro{
+    font-family:Helvetica;
+    font-size: small;
+    text-align: justify;
+    border-style:ridge;
+    border-color:midnightblue;
+    border-width:5px;
+    background-color:orangered;
+}
+
+#ro{
+    font-family:Helvetica;
+    font-size: small;
+    text-align: justify;
+    border-style:ridge;
+    border-color:midnightblue;
+    border-width:5px;
+    background-color:orangered;
+}
+
+#rr{
+    font-family:'Franklin Gothic Medium';
+    font-size: small;
+    text-align: justify;
+    border-style:inset;
+    border-color:lime;
+    border-width:5px;
+    background-color:indianred;
+}
+
+#sc{
+    font-family:'Franklin Gothic Medium';
+    font-size: small;
+    text-align: justify;
+    border-style:outset;
+    border-color:lightseagreen;
+    border-width:5px;
+    background-color:blue;
+}
+
+#sc{
+    font-family:'Franklin Gothic Medium';
+    font-size: small;
+    text-align: justify;
+    border-style:outset;
+    border-color:lightseagreen;
+    border-width:5px;
+    background-color:blue;
+}
+
+#sp{
+    font-family:'Trebuchet MS';
+    font-size: small;
+    text-align: justify;
+    border-style:dotted;
+    border-color:burlywood;
+    border-width:5px;
+    background-color:crimson;
+}
+
+#se{
+    font-family:sans-serif;
+    font-size: small;
+    text-align: justify;
+    border-style:dashed;
+    border-color:darkmagenta;
+    border-width:5px;
+    background-color:darkslateblue;
+}
+
+#to{
+    font-family:'Franklin Gothic Medium';
+    font-size: small;
+    text-align: justify;
+    border-style:solid;
+    border-color:forestgreen;
+    border-width:5px;
+    background-color:blue;
+}

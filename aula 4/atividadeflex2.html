@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade Flex 2</title>
+    <style>
+        *{
+           box-sizing: border-box;
+        }
+        
+        div {
+            width: 200px;
+            height: 180px;
+            background-color:mediumorchid;
+            border: magenta solid 1px;
+            box-shadow: -10px 5px 0 5px cyan;
+            margin: 10px;
+        }
+       .sessao1 {
+
+           display: flex;
+           justify-content: center;
+       }
+
+       #div5{
+        flex-grow: 5;
+       }
+       .sessao2 {
+           display: flex;
+           justify-content: center;
+       }
+       #div1 {
+           flex-grow: 4;
+       }
+       #div2 {
+           flex-grow: 4;
+       }
+       .sessao3 {
+           display: flex;
+           justify-content: center;
+       }
+       #div3 {
+           flex-grow: 4;
+       }
+       #div4 {
+           flex-grow: 4;
+       }
+
+    </style>
+</head>
+<body>
+    <section class="sessao1">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+        <div>4</div>
+        <div id="div5">5</div>
+    </section>
+
+    <section class="sessao2">
+        <div id="div1">1</div>
+        <div id="div2">2</div>
+        <div>3</div>
+        <div>4</div>
+    </section>
+
+    <section class="sessao3">
+        <div>1</div>
+        <div>2</div>
+        <div id="div3">3</div>
+        <div id="div4">4</div>
+    </section>
+</body>
+</html>

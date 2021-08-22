@@ -1,0 +1,37 @@
+p {
+
+    font-family:sans-serif;
+    font-size: x-large;
+    font-style: oblique;
+    font-variant: small-caps;/*fontes maiusculas com tamanho maior ou menos*/
+    font-weight: 600px;
+    text-decoration: line-through;
+    color: magenta;
+    text-transform: capitalize;
+    text-indent: 30px; /* para dar a margem inicial do paragrafo*/
+    line-height: 30px; /* altura das linhas*/
+    letter-spacing: 0;
+
+    
+
+}
+
+span {
+    text-decoration:underline;
+}
+
+a {
+    text-decoration: none;
+}
+
+div {
+    border: solid 1px;
+    width: 450px;
+    height: 450px;
+    text-align: justify;
+    word-wrap: break-word; /*serve como no excel para quebrara a palavra para ajustar a celula*/
+    
+
+
+
+}

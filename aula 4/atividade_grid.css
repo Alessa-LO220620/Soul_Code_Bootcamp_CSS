@@ -1,0 +1,72 @@
+html,
+body {
+    margin    : 0;
+    padding   : 0;
+    box-sizing: border-box;
+}
+
+#imghome {
+    width : 300px;
+    height: 100px;
+}
+
+header {
+    background       : #d2691e;
+    grid-column-start: 1;
+    grid-column-end  : 3;
+}
+
+#banner {
+    width : 600px;
+    height: 300px;
+
+}
+
+h1 {
+    text-align: center;
+}
+
+main {
+    background       : darkblue;
+    grid-column-start: 1;
+    grid-column-end  : 2;
+}
+
+.imgaside {
+    width : 600px;
+    height: 305px;
+}
+
+aside {
+    background       : darkgray;
+    grid-column-start: 2;
+    grid-column-end  : 3;
+}
+
+footer {
+    background       : darkkhaki;
+    grid-column-start: 1;
+    grid-column-end  : 3;
+
+}
+
+.container {
+    display              : grid;
+    grid-template-columns: 3fr 1fr;
+    grid-template-rows   : 20vh 70vh 10vh;
+
+}
+
+div {
+    display: flex;
+}
+
+footer {
+    font-size : medium;
+    text-align: center;
+}
+
+p {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size  : 20px;
+}

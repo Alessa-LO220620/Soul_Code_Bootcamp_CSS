@@ -1,0 +1,14 @@
+p {
+    text-align: center;
+    color: midnightblue;
+    font-family: 'Trebuchet MS';
+    font-style: italic;
+}
+
+#ac {
+    border-style: solid;
+    border-color: rgb(30, 189, 201);
+    border-width: medium;
+    width: 200px;
+    height: 200px;
+}

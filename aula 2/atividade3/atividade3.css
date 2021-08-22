@@ -1,0 +1,186 @@
+:root {
+    background-color: #00CAFD;
+    margin          : 0;
+    padding         : 0;
+}
+
+header {
+    margin-left: 100px;
+    padding    : 30px;
+}
+
+main {
+    background-color: white;
+    margin-left     : 50px;
+    margin-right    : 50px;
+    margin-top      : 10px;
+}
+
+nav {
+    margin-right: 50px;
+}
+
+.menu {
+    width           : 93%;
+    height          : 50px;
+    display         : flex;
+    justify-content : space-around;
+    align-items     : center;
+    float           : right;
+    list-style-type : none;
+    background-color: black;
+    border-radius   : 5px;
+    opacity         : 0.9;
+    box-shadow      : inset -10px 10px 10px rgb(94, 91, 91);
+    margin          : 0 auto;
+
+}
+
+.menu2 {
+    color      : white;
+    font-size  : medium;
+    font-weight: bolder;
+    font-family: 'Lucida Sans';
+}
+
+a {
+    text-decoration: none;
+    color          : white;
+}
+
+#img2 {
+    float   : right;
+    position: relative;
+    bottom  : 0 px;
+    width   : 200px;
+}
+
+#img3 {
+    position: absolute;
+    right   : 830px;
+    top     : 10px;
+}
+
+#img4 {
+    margin-top : 10px;
+    margin-left: 10px;
+}
+
+.verde {
+    color      : #98CC01;
+    font-weight: 100;
+    font-size  : larger;
+    font-family: 'Franklin Gothic Medium';
+    margin-left: 10px;
+    padding    : 10px;
+}
+
+.paragrafo {
+    text-align : justify;
+    font-family: 'Arial Narrow', Arial, sans-serif;
+    margin-left: 30px;
+    padding    : 5px;
+}
+
+#divparagrafo {
+    background-color: rgb(236, 227, 227);
+    padding         : 10px;
+}
+
+button {
+    background-color: #98CC01;
+    font-family     : 'Franklin Gothic Medium';
+    color           : white;
+    border-radius   : 5px;
+    text-align      : center;
+    border-style    : solid;
+    width           : 150px;
+    height          : 30px;
+    margin-left     : 400px;
+}
+
+#divisao {
+    border-style    : outside;
+    background-color: black;
+    width           : 99, 1%;
+    height          : 15px;
+    border-radius   : 3px;
+    box-shadow      : inset -5px 5px 5px rgb(94, 91, 91);
+    opacity         : 0.9;
+}
+
+.section {
+    display         : inline-block;
+    float           : left;
+    width           : 100%;
+    height          : 400px;
+    background-color: white;
+    position        : relative;
+}
+
+
+#div3 {
+    margin-top : 30px;
+    margin-left: 20px;
+    float      : left;
+    width      : 30%;
+    height     : 300px;
+    color      : rgb(29, 158, 209);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    text-align : justify;
+    padding    : 5px;
+}
+
+#spandiv3 {
+    color    : black;
+    font-size: small;
+}
+
+#span {
+    color: #98CC01;
+}
+
+#button2 {
+    background-color: rgb(29, 158, 209);
+    border-radius   : 5px;
+    border-style    : outset;
+    width           : 90px;
+    margin-right    : 300px;
+    margin-left     : 0px;
+    margin-top      : 30px;
+}
+
+#div4 {
+    margin-top : 30px;
+    margin-left: 20px;
+    float      : left;
+    width      : 30%;
+    height     : 300px;
+    color      : rgb(29, 158, 209);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    text-align : justify;
+    padding    : 5px;
+}
+
+#div5 {
+    margin-top  : 30px;
+    float       : right;
+    margin-right: 20px;
+    width       : 30%;
+    height      : 300px;
+    color       : rgb(29, 158, 209);
+    font-family : Arial, Helvetica, sans-serif;
+    font-weight : bolder;
+    text-align  : justify;
+    padding     : 5px;
+}
+
+footer {
+    clear      : both;
+    padding    : 30px;
+    text-align : center;
+    color      : white;
+    font-family: 'Franklin Gothic Medium';
+}
